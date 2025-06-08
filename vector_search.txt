@@ -1,0 +1,11 @@
+([
+  {
+    "$vectorSearch": {
+      "index": "courses_vector",
+      "queryVector": [],
+      "path": "embeddings",
+      "numCandidates": 100,
+      "limit": 3
+    }
+  }
+])
